@@ -20,11 +20,16 @@
 ###########################################################################  */
 
 .card{
+
   width: 50%;
   background-color: var(--lightest);
   border-radius: var(--radius-m);
   overflow: hidden;
   box-shadow: var(--n-shadow-l);
+
+  /* Assignment */
+  position: sticky;
+  top: 0;
 }
 
 .card figcaption{
